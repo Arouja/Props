@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Profile = ({ fullName = 'USER', bio, profession = 'tape your profession', children }) => {
+const Profile = ({ fullName = 'USER', bio, profession = 'tape your profession'}) => {
     const handleName = e => {
         e.preventDefault();
         alert(`Your Name is ${fullName}`)
@@ -11,7 +11,7 @@ const Profile = ({ fullName = 'USER', bio, profession = 'tape your profession', 
             padding: 20, borderRadius: 10,  
         }}>
 
-            <img style={{ width: 600, height: 500 }} src={children} />
+            <img style={{ width: 600, height: 500 }} src="/arouja.jpg" />
 
 
             <div style={{ margin: 50 }}>

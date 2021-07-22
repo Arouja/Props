@@ -12,7 +12,7 @@ function App() {
         analysis and technical design."
         profession="Full Stack JavaScript Developer"
       >
-        /arouja.jpg
+        
       </Profile>
     </div >
   );
